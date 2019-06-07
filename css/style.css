@@ -1,0 +1,251 @@
+body {
+  	font-family: verdana, geneva, serif;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/* Header */
+.formabutton {
+    font-family: verdana, geneva, serif;
+    background-color:dodgerblue;
+    color:white;
+    position: absolute;
+    margin:2%;
+    border-radius:15px;
+    width:150px;
+    height:50px;
+    border:white;
+    padding:4px;
+    text-align: center;
+}
+
+.formabutton:hover{
+    background-color:aqua;
+    width:160px;
+    height:60px;
+    color: darkblue;
+    transition:0.4s;
+  
+}
+
+header {
+	background: white;
+
+}
+
+#header {
+	margin-left: 48%;
+}
+
+/*Bienvenido*/
+
+.bienvenido {
+	background-color: #e62a76;
+	padding: 5px;
+}
+
+.bienvenido h1 {
+	font-size: 25px;
+}
+
+/* Botones de acceso*/
+#contenedor {
+	width: 100%;
+	display: inline;
+}
+
+#contenedor .personal, .admin, .personal2, .admin2 {
+	display: inline-block;
+   
+	position: fixed;
+}
+button{
+   
+    
+}
+.personal2 {
+	background-color:#1ac6ff;
+	width: 320px;
+	height: 250px;
+    opacity:.9;
+    padding: 20px;
+    border: 5px solid #774898;
+    border-radius: 20px;
+    overflow-wrap: break-word;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+.personal {
+	background-color:#774898;
+	width: 320px;
+	height: 150px;
+    opacity:.9;
+    padding: 20px;
+    border: 5px solid #774898;
+    border-radius: 20px;
+    overflow-wrap: break-word;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+.admin2 {
+	background-color:#1ac6ff;
+	width: 320px;
+	height: 250px;
+    opacity:.9;
+    padding: 20px;
+    border: 5px solid #774898;
+    border-radius: 20px;
+    overflow-wrap: break-word;
+    margin-left: 50%;
+    margin-top: 8%;
+    
+}
+
+.admin {
+	background-color:#774898;
+	width: 320px;
+	height: 150px;
+    opacity:.9;
+    padding: 20px;
+    border: 5px solid #774898;
+    border-radius: 20px;
+    overflow-wrap: break-word;
+    margin-left: 50%;
+    margin-top: 8%;
+    
+}
+
+.personal:hover, .personal2:hover {
+	background-color: white;
+	border: 5px solid #774898;
+	border-radius: 20px;
+    overflow-wrap: break-word;
+    cursor: pointer;
+}
+.personal:hover h1 {
+	color:#774898;
+
+}
+.personal2:hover h1 {
+	color:#1ac6ff;
+
+}
+
+
+
+.admin:hover, .admin2:hover {
+	background-color: white;
+	border: 5px solid #774898;
+	border-radius: 20px;
+    overflow-wrap: break-word;
+    cursor: pointer;
+}
+.admin:hover h1 {
+	color:#774898;
+    
+}
+.admin2:hover h1 {
+	color:#1ac6ff;
+
+}
+
+
+h2 {
+color: white;
+	text-align: center;
+}
+
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+footer {
+	background-color: #00a8b5;
+	color: white;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0.1px;
+    text-align: center;
+}
+
+
+/*links*/
+
+.menu{
+
+   color: aliceblue; 
+    background-color:brown; 
+    text-align: center;
+    height:70px;
+    width:500px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:50px;
+    padding-top:2%;
+    font-size:30px;
+    border-radius:50px;
+   
+}
+
+.menu:hover{
+   color: aliceblue; 
+    background-color:indianred;
+    text-align: center;
+
+    font-size:40px;
+   transition:0.5s;
+   
+}
+
+
+a, a:visited, a:link, a:active, a:hover {
+	outline: none;
+	text-decoration: none;
+}
+a img {
+	border: none;
+	outline: none;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+
+/*forma de la caja de la primera pagina*/
+#Login-Box{
+    background-color:#ffccee;
+    opacity:.9;
+    padding-right:15%;
+    padding-left:15%;
+    padding-top:3%;
+    padding-bottom:3%;
+    margin-top:5%;
+    margin-left:20%;
+    margin-right: 20%;
+    border-radius:5%;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+body{
+    background-image: url(../img/download.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+#header{
+    margin-left:30%;
+    margin-right:30%;
+    padding:1px;
+    background-color:#ffccee;
+    opacity:.9;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#a{
+    align-content: center;
+    text-align: center;
+    background: pink;
+    font-size:25;
+}
