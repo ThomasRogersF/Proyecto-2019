@@ -12,45 +12,25 @@ else if (isset($_SESSION['Admin'])){
 	session_destroy();
    ?> <script> alert("se ha cerrado su sesion"); window.location.href="index.php"; </script> <?php exit();
 }
-
-
 ?>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<title></title>
-		<link rel="shortcut icon" href="../img/globe.png">
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+		<link rel="shortcut icon" href="">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" type="text/css" href="">
 	</head>
 	<body>
-	
-	<div style="text-align:center;padding:0; position:absolute;"><span style="color:gray;"> 
-        <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=medium&timezone=America%2FCaracas" width="100%" height="115" frameborder="0" seamless></iframe>
-            </span>
-        </div>
-		
 		<header>
-		
-		
-		
-		
 			<div id="header">
-			
-			
-			
-			
-				<img src="../img/logo2.png">
+			<img src="">
 			</div>
 		</header>
 		<div class="bienvenido">
-			<h1></h1>
+			<h1>Bienvenido al Sistema de Acceso de Control Asistencial</h1>
 		</div>
-		
-		
-		
-		
 		<!--Bienvenido-->
 			<div id="contenedor">
 				<a href="log_user.php">

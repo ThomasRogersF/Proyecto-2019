@@ -21,24 +21,24 @@ else if (isset($_SESSION['Admin'])){
   <head>
     <meta charset="utf-8">
     <title>C.E.I. "Mundo de Colores"</title>
-    <link rel="shortcut icon" href="../img/globe.png">
-    <link rel="stylesheet" type="text/css" href="../css/log_user.css">
-    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./img/globe.png">
+    <link rel="stylesheet" type="text/css" href="./css/log_user.css">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
   </head>
   <body>
     <header>
       <div id="header">
-        <img src="../img/logo2.png">
+        <img src="./img/logo2.png">
       </div>
     </header>
     <div class="bienvenido">
-      <h1>Recuperacion De Contraseña</h1>
+      <h1>Cambiar Contraseña</h1>
     </div><!--Bienvenido-->
     <div class="login">
       <div class="formulario">
         <div id="login">
-            <h3 style="color:white;">por favor, rellenar los siguientes formularios:</h3>
+        
           <form action="cambiar_contra.php" method="POST">
                 
           <p><i class="icon-user"></i><input type="text"  name="nombre" placeholder="nombre" onBlur="if(this.value == '') this.value = 'nombre'" onFocus="if(this.value == 'nombre') this.value = ''" required></p>

@@ -8,9 +8,9 @@ session_start();
 	<head>
 		<meta charset="utf-8">
 		<title>C.E.I. "Mundo de Colores"</title>
-		<link rel="shortcut icon" href="../img/globe.png">
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+		<link rel="shortcut icon" href="./img/globe.png">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" type="text/css" href="./css/normalize.css">
 	</head>
 	<body>
 		
@@ -25,7 +25,7 @@ session_start();
 					} else{
 						
 				
-						?> <script> alert("Tiene Que Iniciar Sesion"); window.location.href="log_user.html"; </script> <?php exit();
+						?> <script> alert("Primero debe Iniciar Sesion."); window.location.href="log_user.php"; </script> <?php exit();
 					} ?>
 			<div id="header">
 				<img src="../img/logo2.png">
@@ -95,8 +95,8 @@ session_start();
 		
 		<footer>
 		        <form action="calendario-usuario.php" method="post">
-		            <input type="hidden" name="id" value="<?php echo $id ?>">
-		            <button type="submit" name="submit3">VER INGRESOS</button>
+		            <input type="hidden" name="id" value="<?php echo $id ?>"><br>
+		            <button type="submit" name="submit3">VISUALIZAR INGRESOS</button>
 		        </form>
 		        
 		        

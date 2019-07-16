@@ -118,7 +118,7 @@ th {
     
 }
 else {
-    ?> <script> alert("tiene que iniciar sesion como usuario"); window.location.href="log_user.php"; </script> <?php exit(); 
+    ?> <script> alert("Debe Iniciar Sesion como Usuario."); window.location.href="log_user.php"; </script> <?php exit(); 
 }
 
 

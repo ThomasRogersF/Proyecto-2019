@@ -7,7 +7,7 @@ session_start();
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/codigo.css">
-	<h1 class="titulo">ACCESO ADMIN</h1>
+	<h1 class="titulo">ACCESO ADMINISTRATIVO</h1>
 </head>
 <body>
 
@@ -16,7 +16,7 @@ session_start();
 	<nav>
 		<div class="main-wrapper">
 			<ul>
-				<li><a href="bases.php">volver</a></li>
+				<li><a href="bases.php">VOLVER</a></li>
 			</ul>
 			<div class="nav-login">
 				
@@ -53,16 +53,14 @@ session_start();
 <label for="Cargo" required>Cargo:</label>
  <select id="list" name="cargo" required><br><br>
                 <option value="<?php echo $mostrar['usuario_cargo'];?>"><?php echo $mostrar['usuario_cargo']; ?></option>
-                <option value="Maestro">Maestro</option>
-                <option value="Adimistrativo">Administrativo</option>
+                <option value="Docente">Docente</option>
+                <option value="Administrativo">Administrativo</option>
                 <option value="Obrero">Obrero</option>
-                <option value="Auxiliar">Auxiliar</option>
-                <option value="Cocineros">Cocineros</option>
             </select>
 <br><br>
  <label for="Turno" required>Turno:</label>
                             <select id="list"  name="turno">
-                                    <option value="<?php echo $mostrar['usuario_turno']; ?>"><?php echo $mostrar['usuario_turno']; ?></option>
+                                    <option placeholder="<?php echo $mostrar['usuario_turno']; ?>"><?php echo $mostrar['usuario_turno']; ?></option>
                                     <option value="Diurno">Diurno</option>
                                     <option value="Vespertino">Vespertino</option>
                             </select>
@@ -72,7 +70,7 @@ session_start();
 
 
  <br>
-     <button type="submit" name="submit">registrar</button>
+     <button type="submit" name="submit">Modificar</button>
 <br>
 
 <style>

@@ -6,11 +6,11 @@ session_start();
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8"> 
 		<title>C.E.I. "Mundo de Colores"</title>
-		<link rel="shortcut icon" href="../img/globe.png">
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+		<link rel="shortcut icon" href="./img/globe.png">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" type="text/css" href="./css/normalize.css">
 	</head>
 	<body>
 		
@@ -24,10 +24,10 @@ session_start();
 						';
 					} else{
 				
-						?> <script> alert("Tiene Que Iniciar Sesion"); window.location.href="log_admin.php"; </script> <?php exit();
+						?> <script> alert("Primero debe Iniciar Sesion."); window.location.href="log_admin.php"; </script> <?php exit();
 					} ?>
 			<div id="header">
-				<img src="../img/logo2.png">
+				<img src="./img/logo2.png">
 			</div>
 		</header>
 		<div class="bienvenido">
@@ -38,7 +38,7 @@ session_start();
 				
 			if (isset($_SESSION['Admin'])) {
 				echo "<h1>BIENVENIDO "; 
-                 $nombre=$_SESSION['nombre'];
+                 $nombre=$_SESSION['usuario_nombre'];
               // $show=$_SESSION['u_first'];
                 $show = strtoupper($nombre);
             
@@ -64,17 +64,18 @@ session_start();
             <a href="signup.php"><div class="menu">Registrar Usuario</div></a>
       
         
-            <a href="bases.php"><div class="menu">Registros</div></a>
+            <a href="bases.php"><div class="menu">Visualizar Registros</div></a>
             
             
-            <a href="calendario.php"><div class="menu">Asistencias</div></a>
+            <a href="calendario.php"><div class="menu">Visualizar Asistencias</div></a>
         
+			<a href="evento.php"><div class="menu">Crear Evento</div></a>
                 
                 
     </div><!--Salida-->
 		
 		<footer>
-			<p>Todos los derechos reservados &copy;</p>
+			<p>Todos los derechos reservados. &copy;</p>
 		</footer>
 
 	</body>

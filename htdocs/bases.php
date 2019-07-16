@@ -1,5 +1,5 @@
 <?php
-session_start(); 
+session_start();
 require 'includes/dbh.inc.php';
 
 if (isset($_SESSION['Admin'])){
@@ -49,13 +49,13 @@ th {
 <center> 
 	<table class="table">
 		<tr>
-			<th>id</th>
-			<th>nombre</th>
-			<th>apellido</th>
-			<th>cedula</th>
-			<th>cargo</th>
+			<th>Id</th>
+			<th>Nombre</th>
+			<th>Apellido</th>
+			<th>Cedula</th>
+			<th>Cargo</th>
             <th>Turno</th>
-			    <th colspan="4">Operanciones</th>	
+			    <th colspan="4">Operaciones</th>	
 		</tr>
 
 		<?php 
@@ -76,7 +76,7 @@ th {
              <form action="modificar.php" method="post">
              <input type="hidden" name="id" value="<?php echo $mostrar['id_usuario']; ?>">
             <td><button type="submit" name="submit2" placeholder="----- Modificar elemento">----- Modificar elemento </button></td></form>
-             <td><a href="includes/eliminar.php?id_usuario=<?php echo $mostrar['id_usuario']; ?>" onclick="return confirm('¿Estas seguro que quieres borrar?');">-----          eliminnar</a></td>
+             <td><a href="includes/eliminar.php?id_usuario=<?php echo $mostrar['id_usuario']; ?>" onclick="return confirm('¿Esta seguro que quiere Eliminar el Registro?');">-----          Eliminar Registro</a></td>
 		</tr>
 		
 		
@@ -84,7 +84,7 @@ th {
 	}
 }
 else {
-   ?> <script> alert("Tiene Que Iniciar Sesion"); window.location.href="log_admin.php"; </script> <?php exit();
+   ?> <script> alert("Primero debe Iniciar Sesion."); window.location.href="log_admin.php"; </script> <?php exit();
 					
 }
 	 ?>
@@ -93,7 +93,7 @@ else {
 
 		<form action="includes/backup.php" method="post">
 		  <button type="submit" name="submit" class="formabutton">
-		      GENERAR RESPALDO
+		      GENERAR PLANILLA
 		  </button>
 		    
 		</form>

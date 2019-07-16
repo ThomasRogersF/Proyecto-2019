@@ -21,15 +21,15 @@ else if (isset($_SESSION['Admin'])){
   <head>
     <meta charset="utf-8">
     <title>C.E.I. "Mundo de Colores"</title>
-    <link rel="shortcut icon" href="../img/globe.png">
-    <link rel="stylesheet" type="text/css" href="../css/log_user.css">
-    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./img/globe.png">
+    <link rel="stylesheet" type="text/css" href="./css/log_user.css">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
   </head>
   <body>
     <header>
       <div id="header">
-        <img src="../img/logo2.png">
+        <img src="./img/logo2.png">
       </div>
     </header>
     <div class="bienvenido">
@@ -41,8 +41,8 @@ else if (isset($_SESSION['Admin'])){
         
           <form action="includes/login.inc.php" method="POST">
                 
-          <p><i class="icon-user"></i><input type="text"  name="uid" placeholder="Cedula" onBlur="if(this.value == '') this.value = 'Usuario'" onFocus="if(this.value == 'Usuario') this.value = ''" required></p>
-          <p><i class="icon-lock"></i><input type="password" name="pwd" placeholder="Contraseña" class  onBlur="if(this.value == '') this.value = 'Contraseña'" onFocus="if(this.value == 'Contraseña') this.value = ''" required maxlength="14" minlength="6" ></p>
+          <p><i class="icon-user"></i><input type="text"  name="uid" placeholder="Cedula" onBlur="if(this.value == '') this.value = ''" onFocus="if(this.value == '') this.value = ''" required></p>
+          <p><i class="icon-lock"></i><input type="password" name="pwd" placeholder="Contraseña" class  onBlur="if(this.value == '') this.value = ''" onFocus="if(this.value == '') this.value = ''" required maxlength="14" minlength="1" ></p>
           <p><input type="submit" name="submit" value="Iniciar Sesión"></p>
 
         </form>
